@@ -1,0 +1,259 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProDentin - Saúde e Bem-estar</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0d6efd, #0b5ed7);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #0d6efd;
+        }
+
+        .icon-box {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .icon-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon-box i {
+            font-size: 50px;
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+
+        .about {
+            padding: 80px 0;
+        }
+
+        .info-section {
+            background: white;
+            padding: 60px 0;
+        }
+
+        .contact {
+            background: #0d6efd;
+            color: white;
+            padding: 70px 0;
+        }
+
+        footer {
+            background: #111;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn-custom {
+            background: white;
+            color: #0d6efd;
+            font-weight: bold;
+            border-radius: 50px;
+            padding: 12px 30px;
+        }
+
+        .btn-custom:hover {
+            background: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <h1>ProDentin</h1>
+        <p>Cuidando da sua saúde e bem-estar com qualidade, confiança e excelência.</p>
+
+        <a href="#contato" class="btn btn-custom mt-4">
+            Entrar em Contato
+        </a>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="about">
+    <div class="container">
+        <h2 class="text-center section-title">Nossos Diferenciais</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <i class="bi bi-shield-check"></i>
+                    <h4>Segurança</h4>
+                    <p>Compromisso com qualidade e atendimento confiável para nossos clientes.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <i class="bi bi-heart-pulse"></i>
+                    <h4>Bem-estar</h4>
+                    <p>Produtos e serviços voltados para saúde, autoestima e qualidade de vida.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <i class="bi bi-award"></i>
+                    <h4>Excelência</h4>
+                    <p>Atendimento profissional com foco total na satisfação do cliente.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section class="info-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <h2 class="section-title">Sobre a ProDentin</h2>
+
+                <p>
+                    A <strong>ProDentin</strong> é uma empresa ativa e comprometida com a excelência,
+                    oferecendo soluções de qualidade para seus clientes desde 2014.
+                </p>
+
+                <p>
+                    Trabalhamos com dedicação, profissionalismo e transparência,
+                    garantindo confiança e credibilidade em todos os serviços prestados.
+                </p>
+
+                <p>
+                    Nosso objetivo é proporcionar atendimento de alto padrão,
+                    sempre focando na satisfação e bem-estar dos nossos clientes.
+                </p>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1200&auto=format&fit=crop"
+                     class="img-fluid rounded shadow"
+                     alt="ProDentin">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- INFORMAÇÕES -->
+<section class="about">
+    <div class="container">
+        <h2 class="text-center section-title">Informações da Empresa</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="icon-box text-start">
+                    <h5><i class="bi bi-building"></i> Dados Empresariais</h5>
+                    <hr>
+
+                    <p><strong>Razão Social:</strong> ProDentin</p>
+                    <p><strong>Nome Fantasia:</strong> ProDentin</p>
+                    <p><strong>Capital Social:</strong> R$ 30.000,00</p>
+                    <p><strong>Tipo:</strong> Matriz</p>
+                    <p><strong>Situação:</strong> Ativa</p>
+                    <p><strong>Data Cadastral:</strong> 21/03/2014</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="icon-box text-start">
+                    <h5><i class="bi bi-geo-alt"></i> Localização</h5>
+                    <hr>
+
+                    <p>Avenida 24 de Outubro, 1262</p>
+                    <p>Quadra 48 Lote 11</p>
+                    <p>Set Campinas</p>
+                    <p>Goiânia - GO</p>
+                    <p>CEP: 74505-010</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contact" id="contato">
+    <div class="container text-center">
+
+        <h2 class="mb-4">Entre em Contato</h2>
+
+        <p class="mb-4">
+            Estamos prontos para atender você com qualidade e profissionalismo.
+        </p>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                <h5><i class="bi bi-envelope"></i> E-mail</h5>
+                <p>be****@****.com</p>
+            </div>
+
+            <div class="col-md-4">
+                <h5><i class="bi bi-telephone"></i> Telefones</h5>
+                <p>(62) 991**-****</p>
+                <p>(62) 395**-****</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        © 2026 ProDentin - Todos os direitos reservados.
+    </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
